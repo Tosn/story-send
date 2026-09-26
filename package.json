@@ -1,0 +1,20 @@
+{
+  "name": "novel-submit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node --env-file=.env server/index.js",
+    "web": "vite"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.58.0",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}
