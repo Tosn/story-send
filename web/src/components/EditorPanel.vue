@@ -21,12 +21,20 @@
     </div>
     <div class="filter-row">
       <span class="filter-label">平台：</span>
-      <a-checkbox-group v-model="platformFilter" class="filter-options">
-        <a-checkbox v-for="name in categories.platforms" :key="name" :value="name">
-          <a-tag :color="getTagColor(categories.platforms, name, 0)">{{ name }}</a-tag>
-        </a-checkbox>
-      </a-checkbox-group>
-      <a-typography-text v-if="!categories.platforms.length" type="secondary">暂无，可在分类管理中添加</a-typography-text>
+      <a-select
+        v-model="platformFilter"
+        :options="categories.platforms"
+        multiple
+        allow-clear
+        allow-search
+        :max-tag-count="5"
+        :placeholder="categories.platforms.length ? '全部平台' : '暂无平台，可在分类管理中添加'"
+        class="platform-select"
+      >
+        <template #option="{ data }">
+          <a-tag :color="getTagColor(categories.platforms, data.value, 0)">{{ data.label }}</a-tag>
+        </template>
+      </a-select>
     </div>
     <div class="filter-row">
       <span class="filter-label">小说类型：</span>
@@ -36,12 +44,20 @@
         </a-checkbox>
       </a-checkbox-group>
     </div>
+    <div class="filter-row">
+      <span class="filter-label">排序：</span>
+      <a-radio-group v-model="sortMode" type="button" size="small" class="sort-group">
+        <a-radio value="oldest">最早录入</a-radio>
+        <a-radio value="newest">最新录入</a-radio>
+        <a-radio value="platform">按平台</a-radio>
+      </a-radio-group>
+    </div>
 
     <div class="toolbar mb">
       <a-space>
-        <a-button size="small" @click="selectAllFiltered">全选当前</a-button>
-        <a-button size="small" @click="unselectAllFiltered">取消全选当前</a-button>
-        <a-tooltip content="在当前筛选结果中，每个平台选择最后录入的一位编辑，未设置平台的编辑全部选中，并替换已选">
+        <a-button size="small" @click="selectAllFiltered">全选筛选结果</a-button>
+        <a-button size="small" @click="unselectAllFiltered">取消全选筛选结果</a-button>
+        <a-tooltip content="在当前筛选结果中，每个平台随机选择一位编辑，未设置平台的编辑全部选中，并替换已选">
           <a-button size="small" @click="selectOnePerPlatform">每平台选一个</a-button>
         </a-tooltip>
         <a-typography-text>已选 {{ selectedIds.length }} 人</a-typography-text>
@@ -53,14 +69,22 @@
 
     <a-table
       row-key="id"
-      :data="filteredEditors"
+      :data="sortedEditors"
       :columns="columns"
-      :pagination="false"
-      :row-selection="{ type: 'checkbox', showCheckedAll: true }"
-      :selected-keys="selectedIds"
+      :pagination="{ current: page, pageSize: PAGE_SIZE, showTotal: true, hideOnSinglePage: true }"
+      @page-change="page = $event"
       size="small"
-      @update:selected-keys="emit('update:selectedIds', $event)"
     >
+      <template #selectAllHeader>
+        <a-checkbox
+          :model-value="allFilteredSelected"
+          :indeterminate="someFilteredSelected"
+          @change="allFilteredSelected ? unselectAllFiltered() : selectAllFiltered()"
+        />
+      </template>
+      <template #select="{ record }">
+        <a-checkbox :model-value="selectedIds.includes(record.id)" @change="toggleSelect(record.id)" />
+      </template>
       <template #platform="{ record }">
         <a-tag v-if="record.platform" :color="getTagColor(categories.platforms, record.platform, 0)">{{ record.platform }}</a-tag>
       </template>
@@ -83,7 +107,7 @@
       v-model:visible="dialogVisible"
       :editor="editingEditor"
       :categories="categories"
-      @saved="emit('refresh')"
+      @saved="onImported"
     />
     <BatchAddDialog
       v-model:visible="batchVisible"
@@ -114,6 +138,7 @@ const props = defineProps({
 const emit = defineEmits(['update:selectedIds', 'refresh', 'refresh-categories'])
 
 const columns = [
+  { titleSlotName: 'selectAllHeader', slotName: 'select', width: 50 },
   { title: '名字', dataIndex: 'name', width: 90 },
   { title: '邮箱', dataIndex: 'email', ellipsis: true, tooltip: true },
   { title: '平台', slotName: 'platform', width: 100 },
@@ -152,6 +177,35 @@ const filteredEditors = computed(() =>
   )
 )
 
+// 排序：录入顺序即数组顺序；按平台时按分类管理中的顺序分组，组内按录入顺序，未设置平台的排最后
+const sortMode = ref('oldest')
+const sortedEditors = computed(() => {
+  const list = [...filteredEditors.value]
+  if (sortMode.value === 'newest') return list.reverse()
+  if (sortMode.value === 'platform') {
+    const platforms = props.categories.platforms
+    const rank = (e) => {
+      if (!e.platform) return platforms.length + 1
+      const i = platforms.indexOf(e.platform)
+      return i === -1 ? platforms.length : i
+    }
+    return list.sort((a, b) => rank(a) - rank(b))
+  }
+  return list
+})
+
+// 前端分页：筛选条件变化回到第 1 页；删除等导致页码超出时调整到最后一页
+const PAGE_SIZE = 20
+const page = ref(1)
+watch([keyword, platformFilter, novelTypeFilter, sortMode], () => { page.value = 1 })
+watch(
+  () => filteredEditors.value.length,
+  (len) => {
+    const lastPage = Math.max(1, Math.ceil(len / PAGE_SIZE))
+    if (page.value > lastPage) page.value = lastPage
+  }
+)
+
 function selectAllFiltered() {
   const ids = new Set(props.selectedIds)
   filteredEditors.value.forEach((e) => ids.add(e.id))
@@ -163,19 +217,35 @@ function unselectAllFiltered() {
   emit('update:selectedIds', props.selectedIds.filter((id) => !filteredIds.has(id)))
 }
 
-// 当前筛选结果中每个平台取最后录入（数组中最后出现）的一位，未设置平台的全部选中，替换已选
+// 表头勾选框按全部筛选结果（所有页）计算
+const selectedFilteredCount = computed(() => filteredEditors.value.filter((e) => props.selectedIds.includes(e.id)).length)
+const allFilteredSelected = computed(
+  () => filteredEditors.value.length > 0 && selectedFilteredCount.value === filteredEditors.value.length
+)
+const someFilteredSelected = computed(() => selectedFilteredCount.value > 0 && !allFilteredSelected.value)
+
+function toggleSelect(id) {
+  emit(
+    'update:selectedIds',
+    props.selectedIds.includes(id) ? props.selectedIds.filter((x) => x !== id) : [...props.selectedIds, id]
+  )
+}
+
+// 当前筛选结果中每个平台随机选一位，未设置平台的全部选中，替换已选
 function selectOnePerPlatform() {
   if (!filteredEditors.value.length) return Message.warning('当前筛选结果中没有编辑')
-  const latest = new Map()
+  const groups = new Map()
   const noPlatform = []
   filteredEditors.value.forEach((e) => {
-    if (e.platform) latest.set(e.platform, e.id)
-    else noPlatform.push(e.id)
+    if (!e.platform) return noPlatform.push(e.id)
+    if (!groups.has(e.platform)) groups.set(e.platform, [])
+    groups.get(e.platform).push(e.id)
   })
-  emit('update:selectedIds', [...latest.values(), ...noPlatform])
+  const picked = [...groups.values()].map((ids) => ids[Math.floor(Math.random() * ids.length)])
+  emit('update:selectedIds', [...picked, ...noPlatform])
   const parts = []
-  if (latest.size) parts.push(`已为 ${latest.size} 个平台各选择 1 位编辑`)
-  if (noPlatform.length) parts.push(`${latest.size ? '另' : '已'}选中 ${noPlatform.length} 位未设置平台的编辑`)
+  if (groups.size) parts.push(`已为 ${groups.size} 个平台各选择 1 位编辑`)
+  if (noPlatform.length) parts.push(`${groups.size ? '另' : '已'}选中 ${noPlatform.length} 位未设置平台的编辑`)
   Message.success(parts.join('，'))
 }
 
@@ -289,6 +359,13 @@ async function remove(editor) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.sort-group {
+  margin-top: 4px;
+}
+.platform-select {
+  flex: 1;
+  max-width: 600px;
 }
 .search-input {
   width: 300px;

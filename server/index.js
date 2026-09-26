@@ -46,11 +46,13 @@ async function validateEditor(body) {
   if (!editor.name) throw new HttpError(400, '名字不能为空')
   if (!EMAIL_RE.test(editor.email)) throw new HttpError(400, '邮箱格式不正确')
   const categories = await readCategories()
-  if (editor.platform && !categories.platforms.includes(editor.platform)) {
-    throw new HttpError(400, `平台类型「${editor.platform}」不存在`)
-  }
   const missingType = editor.novelTypes.find((t) => !categories.novelTypes.includes(t))
   if (missingType) throw new HttpError(400, `小说类型「${missingType}」不存在`)
+  // 校验全部通过后，平台不存在则自动新建
+  if (editor.platform && !categories.platforms.includes(editor.platform)) {
+    categories.platforms.push(editor.platform)
+    await writeJson(CATEGORIES_FILE, categories)
+  }
   return editor
 }
 

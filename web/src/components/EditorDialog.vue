@@ -15,8 +15,7 @@
         <a-input v-model="form.email" placeholder="xxx@example.com" />
       </a-form-item>
       <a-form-item label="平台类型">
-        <a-select v-if="categories.platforms.length" v-model="form.platform" :options="categories.platforms" allow-clear allow-search placeholder="不选" />
-        <a-empty v-else description="请先到分类管理中添加" />
+        <a-select v-model="form.platform" :options="categories.platforms" allow-clear allow-search allow-create placeholder="不选，或输入新平台名称" />
       </a-form-item>
       <a-form-item label="小说类型">
         <a-select v-if="categories.novelTypes.length" v-model="form.novelTypes" :options="categories.novelTypes" multiple allow-clear allow-search placeholder="不选" />
@@ -60,7 +59,8 @@ async function save() {
   try {
     if (props.editor) await updateEditor(props.editor.id, payload)
     else await addEditor(payload)
-    Message.success('已保存')
+    const platform = payload.platform.trim()
+    Message.success(platform && !props.categories.platforms.includes(platform) ? `已保存，并新建平台「${platform}」` : '已保存')
     emit('saved')
     emit('update:visible', false)
     return true

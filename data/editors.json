@@ -5,7 +5,9 @@
     "email": "3061263051@qq.com",
     "note": "",
     "platform": "起源",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "5b248e1f-d05f-485a-9da7-11aab2fa3450",
@@ -13,7 +15,9 @@
     "email": "2517419332@qq.com",
     "note": "小窗速审加微信SYH0109420",
     "platform": "热岛",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "0337be66-38eb-44ad-af00-09eec77724db",
@@ -21,7 +25,9 @@
     "email": "3697590325@qq.com",
     "note": "近期主收世情爽文，主角逆袭的脑洞文，和玄幻、修仙题材结合的言情文\n过稿标准：1w-1.2w字；人设清晰，情绪有起伏，节奏快，文章有逻辑，无抄袭",
     "platform": "点文",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "b48e4564-0c0a-464f-b970-2fdbd5346d13",
@@ -29,7 +35,9 @@
     "email": "106277767@qq.com",
     "note": "",
     "platform": "番茄",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "15bc2797-4fcc-4fb4-820b-7ded88d8c375",
@@ -37,15 +45,19 @@
     "email": "2463045647@qq.com",
     "note": "我们家暂时不收：高仿文/AI文/时政新闻热点/涉政涉军/涉赌涉毒/涉黄擦边/血腥犯罪/以暴制暴/民俗灵异/器官买卖/校园霸凌/校园灵异/耽美百合/伪兄妹/未成年/乱伦/拐卖/毒贩/核污/缅北/囚禁/等等都不能过审，实时热点可以抓，但红线不要碰！！！ 【重点注意】： 热门题材和热门梗可以写，但不允许抄袭和高仿！！！ 导语格式和剧情框架也不能高仿！必须创新升级！！！ 中译中的稿子不要来投稿，一经查出，后果自负！！！",
     "platform": "黑岩",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "f52bab03-74d4-435a-9ccd-52e6a1f21bb9",
     "name": "花满子",
     "email": "3414679159@qq.com",
     "note": "",
-    "platform": "掌心",
-    "novelType": "短篇"
+    "platform": "掌心故事会",
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "0e5b8591-accb-415f-a1fa-995b1d4eb34d",
@@ -53,7 +65,9 @@
     "email": "1500979959@qq.com",
     "note": "",
     "platform": "天阅书城",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "e30423aa-f217-4c61-92d2-84a62c07a642",
@@ -61,7 +75,9 @@
     "email": "1724762504@qq.com",
     "note": "小窗扣1领例文",
     "platform": "七猫",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
   },
   {
     "id": "dc8cc4df-9a2b-4080-b52e-b252eee25e9e",
@@ -69,6 +85,1128 @@
     "email": "3951131646@qq.com",
     "note": "四季文学责编简季，主收小程序、番茄短篇。字数8K~1.3W\n历史成绩作者请直接小窗不要邮箱，工作日邮箱审核时间24h。",
     "platform": "四季",
-    "novelType": "短篇"
+    "novelTypes": [
+      "短篇"
+    ]
+  },
+  {
+    "id": "361b134d-5569-4a32-8e4a-528d3e7d9a38",
+    "name": "何尊",
+    "email": "2232872458@qq.com",
+    "note": "收全品类短篇小说，追妻追夫文，脑洞爽文，大女主复仇文，亲情虐文，世情打脸爽文! 可加急比价 不看历史成绩，有历史成绩更好。",
+    "platform": "九州",
+    "novelTypes": [
+      "短篇"
+    ]
+  },
+  {
+    "id": "0662bc86-49d2-4cb3-91a8-f5960c35cf08",
+    "name": "招财鼠",
+    "platform": "17K",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3399819191@qq.com"
+  },
+  {
+    "id": "7fd5a0a2-e810-4a8f-a5de-9bb0581712a7",
+    "name": "香使",
+    "platform": "dreame",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1055948442@qq.com"
+  },
+  {
+    "id": "b7696e76-ac02-4496-b488-3c2405085986",
+    "name": "灯灯",
+    "platform": "Goodnovel",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3824412191@qq.com"
+  },
+  {
+    "id": "be11d3f7-ae24-4e5d-baa5-9a49b753c78a",
+    "name": "星雨",
+    "platform": "MoboReader",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1941699186@qq.com"
+  },
+  {
+    "id": "045a9ab3-b732-4de8-9d52-8ff7c77f0aec",
+    "name": "啾啾",
+    "platform": "Netshort",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "237492021@qq.com"
+  },
+  {
+    "id": "72d90d01-51a6-41d4-9f75-f2769a2e7533",
+    "name": "时萝",
+    "platform": "七方文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3673025108@qq.com"
+  },
+  {
+    "id": "1f1825e1-0b3f-474b-b577-bb54d7ee9902",
+    "name": "青崖",
+    "platform": "七方文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3082775334@qq.com"
+  },
+  {
+    "id": "365a63a8-9b0f-40f5-aa77-1165c1535923",
+    "name": "邢黎",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1973772626@qq.com"
+  },
+  {
+    "id": "0b6148c8-92c9-4d85-81c3-b992613a942d",
+    "name": "KK",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2633989484@qq.com"
+  },
+  {
+    "id": "322e3a5e-ed15-4ff3-96c0-a53f71f160b0",
+    "name": "七七",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2540615665@qq.com"
+  },
+  {
+    "id": "e12f2ee9-a8e6-4792-96cb-cb8ea6bf1685",
+    "name": "乔乔",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2437695670@qq.com"
+  },
+  {
+    "id": "0c220a65-9e43-4200-a4ca-dc87af27bd31",
+    "name": "呦呦",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "651663782@qq.com"
+  },
+  {
+    "id": "050b67a6-d1c7-4425-b1cb-93c6ee8132dc",
+    "name": "山茶",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2037175640@qq.com"
+  },
+  {
+    "id": "a6eca1fc-2e8a-4ebb-9bb4-58ba5dbec169",
+    "name": "砚汐",
+    "platform": "七猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3558592963@qq.com"
+  },
+  {
+    "id": "67924ba8-eaae-4566-84e5-4120e12860d2",
+    "name": "不染",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2116333021@qq.com"
+  },
+  {
+    "id": "13b43254-fb53-4db4-ae5c-f1e8ac372921",
+    "name": "临安瑞猫",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "725458857@qq.com"
+  },
+  {
+    "id": "32a1b410-b9a5-400b-99f7-72ec3273bd79",
+    "name": "云池",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2030312617@qq.com"
+  },
+  {
+    "id": "6448a063-d01e-4e64-abc4-6f6dcb9e398c",
+    "name": "木木",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "405913008@qq.com"
+  },
+  {
+    "id": "882518c3-f6cb-4ea7-a35e-03c42216c2c2",
+    "name": "秋辞",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3918455338@qq.com"
+  },
+  {
+    "id": "e494fa5a-234b-4b21-b850-6d591ec645b4",
+    "name": "薄荷",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1370850514@qq.com"
+  },
+  {
+    "id": "56f70eb7-8694-4124-bf54-d8b5e73ec0bf",
+    "name": "长袖",
+    "platform": "九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3458864786@qq.com"
+  },
+  {
+    "id": "08294dce-4c5e-4cd3-a09d-5643fa64af3c",
+    "name": "诗酒",
+    "platform": "九州北京",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "823240541@qq.com"
+  },
+  {
+    "id": "2e10aa25-2c2f-4bce-b1f9-93f9e1eb1153",
+    "name": "麻酱",
+    "platform": "九州北京",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3087273414@qq.com"
+  },
+  {
+    "id": "8dcdf306-562a-4f48-aa81-31aac2f3210d",
+    "name": "楹夏",
+    "platform": "九州南昌",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3285214742@qq.com"
+  },
+  {
+    "id": "1cad9bd3-560f-4b51-898c-332fad1e5bf8",
+    "name": "九冬",
+    "platform": "九州文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2639089893@qq.com"
+  },
+  {
+    "id": "fd2fcf4d-df75-488a-824e-2efaf9e3f878",
+    "name": "发财橘子",
+    "platform": "九州文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1933588680@qq.com"
+  },
+  {
+    "id": "c3a19473-7afe-4a79-8d85-955b3dfecd4c",
+    "name": "大勇",
+    "platform": "九州文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "484913248@qq.com"
+  },
+  {
+    "id": "f2ffd12b-3518-4931-85bf-c4f2e0675b75",
+    "name": "昆仑",
+    "platform": "九州文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "859321539@qq.com"
+  },
+  {
+    "id": "93b257a5-a831-410b-9d8d-61e96e2a1ceb",
+    "name": "锦鲤",
+    "platform": "九州文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1330823736@qq.com"
+  },
+  {
+    "id": "cc955b49-4c9b-4f2a-b668-39e6ed4b5175",
+    "name": "紫苏",
+    "platform": "九州杭州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "191166821@qq.com"
+  },
+  {
+    "id": "bd1adb06-ef8d-4b65-b454-11d6df954bd8",
+    "name": "知月",
+    "platform": "九州武汉",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "192736696@qq.com"
+  },
+  {
+    "id": "c29dd88b-d3cf-47e9-89a3-4438e73f4937",
+    "name": "咩咩",
+    "platform": "云屿",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3927218819@qq.com"
+  },
+  {
+    "id": "3846ec35-c3a5-4d98-85f1-d68db311e5b7",
+    "name": "平台",
+    "platform": "今心文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2638304619@qq.com"
+  },
+  {
+    "id": "4b66218f-af36-43c6-9c9a-4bc8905ad71c",
+    "name": "六幺",
+    "platform": "光芒故事会",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2675095820@qq.com"
+  },
+  {
+    "id": "d7413580-f524-4e1c-8b1f-e855ecc9ce83",
+    "name": "芽芽",
+    "platform": "光芒故事会",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3761848852@qq.com"
+  },
+  {
+    "id": "46320308-9bab-47de-80af-2c09cd39b22e",
+    "name": "六六",
+    "platform": "八道文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2664276701@qq.com"
+  },
+  {
+    "id": "d3312568-2abb-4a8b-bc91-c0d08f0a99be",
+    "name": "淼淼",
+    "platform": "刚刚好故事会",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "960567322@qq.com"
+  },
+  {
+    "id": "07dd06dc-fdf8-437c-a7c8-add3d241eb96",
+    "name": "沉秋",
+    "platform": "剧点",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1959857836@qq.com"
+  },
+  {
+    "id": "310454d0-b9c8-4cfc-acc2-5b3984212e50",
+    "name": "九条猫",
+    "platform": "北京九州",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3415647772@qq.com"
+  },
+  {
+    "id": "9e0e984d-2af7-4e2e-bad5-47c411f0211f",
+    "name": "秦川",
+    "platform": "友和书城",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "704929443@qq.com"
+  },
+  {
+    "id": "e0ec5eeb-62fe-466e-b22f-5058c5d42706",
+    "name": "冰糖",
+    "platform": "四季",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3929379356@qq.com"
+  },
+  {
+    "id": "69677f0b-c5d3-49f5-a964-53bb49b0acb3",
+    "name": "小雨",
+    "platform": "四季",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3780887055@qq.com"
+  },
+  {
+    "id": "44307a1c-c88d-4ee1-9427-b4a4e3082740",
+    "name": "时艾",
+    "platform": "四季",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3023992264@qq.com"
+  },
+  {
+    "id": "aa54845b-ead0-4315-a237-09d73973e3dc",
+    "name": "鱼小屿",
+    "platform": "四季",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2915086208@qq.com"
+  },
+  {
+    "id": "e8235407-cc92-4e9d-b158-2d2eafa08b14",
+    "name": "鱼旺",
+    "platform": "四季",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3936847575@qq.com"
+  },
+  {
+    "id": "e07f3fb9-f2c0-4cec-a074-a0760c4062e1",
+    "name": "冰糖葫芦",
+    "platform": "墨墨言情网",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3058238160@qq.com"
+  },
+  {
+    "id": "fbcba5aa-bbb9-4d33-a87f-dc382f058fdf",
+    "name": "蓝兔",
+    "platform": "天阅书城",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2012551966@qq.com"
+  },
+  {
+    "id": "8289df61-be68-443a-a9c6-e9ed3f1eb4c4",
+    "name": "可颂",
+    "platform": "失控剧场",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2414544452@qq.com"
+  },
+  {
+    "id": "4f7b8e6e-2d6b-4de8-89a9-bd918f0bb4fe",
+    "name": "清新",
+    "platform": "子阅文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2705582039@qq.com"
+  },
+  {
+    "id": "7ff2f141-7dd4-49a7-b0bc-326da447e6d0",
+    "name": "富贵竹",
+    "platform": "容量",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2047123741@qq.com"
+  },
+  {
+    "id": "59705d11-ffe4-4b1b-a0fa-0b998e371450",
+    "name": "云岫",
+    "platform": "弦月",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1136036792@qq.com"
+  },
+  {
+    "id": "0476c5cb-fc76-438a-b5ce-7ddf7b781795",
+    "name": "调调",
+    "platform": "快点阅读",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1149944031@qq.com"
+  },
+  {
+    "id": "11019c8c-4d90-4a6e-9d1c-8801f72347e2",
+    "name": "七四",
+    "platform": "悠雅",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3931926694@qq.com"
+  },
+  {
+    "id": "555cd591-0663-4998-a8a2-00cf4118eba3",
+    "name": "乐雾",
+    "platform": "掌中云",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2175525032@qq.com"
+  },
+  {
+    "id": "340405d9-4f50-42c1-b52d-6c2e5f1d71ef",
+    "name": "早早",
+    "platform": "掌中云",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2782057861@qq.com"
+  },
+  {
+    "id": "71fed434-72bd-4a37-9e4b-579e1e91a5ed",
+    "name": "柚子",
+    "platform": "掌中云",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3202888527@qq.com"
+  },
+  {
+    "id": "6c47e8a3-f821-4111-9b4f-ba3125a3d53d",
+    "name": "樱桃",
+    "platform": "掌中云",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2137578927@qq.com"
+  },
+  {
+    "id": "76067e0b-e2c6-444e-a9df-788ad6042659",
+    "name": "知知",
+    "platform": "掌中云",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "439785557@qq.com"
+  },
+  {
+    "id": "a500c814-1954-4fc2-9d84-2efb3d90fa7d",
+    "name": "财咪",
+    "platform": "掌心故事会",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3979346487@qq.com"
+  },
+  {
+    "id": "2744ac0a-fc6b-4405-baf0-19f5090ec615",
+    "name": "酒酒",
+    "platform": "掌心故事会",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "416041022@qq.com"
+  },
+  {
+    "id": "22eed9d0-c685-4400-ab4e-b0f78da901b5",
+    "name": "泠钦",
+    "platform": "掌阅",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1533741545@qq.com"
+  },
+  {
+    "id": "0de214b9-0ed7-4c76-9ee5-b7a09ac0c1c0",
+    "name": "涂涂",
+    "platform": "掌阅",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1665540037@qq.com"
+  },
+  {
+    "id": "45176214-f9ba-409c-9079-6a38a17d3312",
+    "name": "狐狸",
+    "platform": "文签",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3757310465@qq.com"
+  },
+  {
+    "id": "f48f1481-59aa-469f-bc54-b7705374c463",
+    "name": "长洲",
+    "platform": "无虞",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2489872143@qq.com"
+  },
+  {
+    "id": "ec2fa75a-b30a-47b8-b653-180ab7432459",
+    "name": "晓白",
+    "platform": "星空佳创",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "928116973@qq.com"
+  },
+  {
+    "id": "1b9b10cb-0c74-4a09-aee0-a76ab748d084",
+    "name": "右右",
+    "platform": "最右",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3798737368@qq.com"
+  },
+  {
+    "id": "41593fdd-9224-4a0b-838a-11ba63609837",
+    "name": "七鹤",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2262182214@qq.com"
+  },
+  {
+    "id": "a9779a40-8b6f-4c82-9a60-180761a5abbd",
+    "name": "君一",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "783044887@qq.com"
+  },
+  {
+    "id": "50f94f5b-372a-4cea-afe8-3ada83fd76d9",
+    "name": "土崽",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1926724371@qq.com"
+  },
+  {
+    "id": "9249d63c-8b52-4340-a474-16a2ad71bc13",
+    "name": "三七",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3200497614@qq.com"
+  },
+  {
+    "id": "ebb825eb-71dc-45a4-b070-aa4d7243f920",
+    "name": "冬冬",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2274963118@qq.com"
+  },
+  {
+    "id": "a4f49600-a037-4c93-9f8f-7a1bdd02d1d6",
+    "name": "南衣",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1527085798@qq.com"
+  },
+  {
+    "id": "70710ef2-8528-4345-985d-26ec41b27674",
+    "name": "考拉",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "736094133@qq.com"
+  },
+  {
+    "id": "d2422d29-c689-4d83-9d78-e3cc8e99106e",
+    "name": "阿爆",
+    "platform": "月下",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1148640316@qq.com"
+  },
+  {
+    "id": "bfa27878-50d8-4e0d-91b9-feae3c8abd9b",
+    "name": "月牙白",
+    "platform": "月米文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3938556599@qq.com"
+  },
+  {
+    "id": "adf951f2-3bc2-4585-8222-8822209262d5",
+    "name": "李",
+    "platform": "朵米",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2987691450@qq.com"
+  },
+  {
+    "id": "02ccd8aa-0036-4369-9068-912c8bff4eb0",
+    "name": "西瓜",
+    "platform": "果悦",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3680387466@qq.com"
+  },
+  {
+    "id": "01821b23-9e5f-4a42-857a-f51d135710ab",
+    "name": "千雨",
+    "platform": "沐风文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1519223639@qq.com"
+  },
+  {
+    "id": "77e9eecf-e48f-41ec-9b63-d0a1c95e2c4b",
+    "name": "朱迪",
+    "platform": "沐风文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1462381666@qq.com"
+  },
+  {
+    "id": "6a0d7c43-8fb7-455f-8733-ed7d8acc783a",
+    "name": "多金",
+    "platform": "沣竹文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2997206441@qq.com"
+  },
+  {
+    "id": "d6c35830-158b-4df6-a4bd-4b0b783743fe",
+    "name": "洛洛",
+    "platform": "洞洞猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1724189762@qq.com"
+  },
+  {
+    "id": "de0d886b-d735-479e-86b4-074342049300",
+    "name": "灵珊",
+    "platform": "洞洞猫",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3652313934@qq.com"
+  },
+  {
+    "id": "2b7e38fb-39ae-48b6-9cf3-9f3f87c8cfae",
+    "name": "千千",
+    "platform": "炎旸",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3116941557@qq.com"
+  },
+  {
+    "id": "24307d8f-04a9-4894-95d8-15c5204c3ad1",
+    "name": "招财喵",
+    "platform": "炎旸",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1964179069@qq.com"
+  },
+  {
+    "id": "ed680013-b98e-4d36-895c-f054ab5caae3",
+    "name": "星焕",
+    "platform": "炎旸",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2188767412@qq.com"
+  },
+  {
+    "id": "e5739672-8eee-4f19-920b-7fd51312d0aa",
+    "name": "风铃",
+    "platform": "炎旸",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3634938507@qq.com"
+  },
+  {
+    "id": "5611f899-70b6-4e04-9e56-b27f876a9396",
+    "name": "呀咪",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "695567664@qq.com"
+  },
+  {
+    "id": "1c2a563f-78cb-4273-b228-4e653b72e904",
+    "name": "圆圆",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3304320047@qq.com"
+  },
+  {
+    "id": "29eab739-11d7-46b2-bf2b-c6860fc7b112",
+    "name": "樱桃",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3026006691@qq.com"
+  },
+  {
+    "id": "eac79f6e-7535-43c0-8025-fc0ae428cd0b",
+    "name": "茉白",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2329513549@qq.com"
+  },
+  {
+    "id": "922b6326-df15-423f-be30-205527b465e8",
+    "name": "茉白",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2747710303@qq.com"
+  },
+  {
+    "id": "f89a0e28-06da-4a46-b56c-e7dda2694dd2",
+    "name": "菱岛",
+    "platform": "点众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "178935503@qq.com"
+  },
+  {
+    "id": "8150d9db-3511-4eb2-940d-f9375bc9b396",
+    "name": "兰若",
+    "platform": "烟流工作室",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "603673505@qq.com"
+  },
+  {
+    "id": "59444c8a-ef29-4248-8d2c-0274414cc965",
+    "name": "淮安",
+    "platform": "烟流工作室",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3558906826@qq.com"
+  },
+  {
+    "id": "04b9b393-8cd1-44a7-ab7c-a4e3a1be39fd",
+    "name": "烟烟",
+    "platform": "烟流工作室",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3976448966@qq.com"
+  },
+  {
+    "id": "4712ca23-d458-4cb3-9c58-4c01b91f71a3",
+    "name": "梧秋",
+    "platform": "热岛",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3688582577@qq.com"
+  },
+  {
+    "id": "de047ffa-8ade-4211-abad-d931040b9af2",
+    "name": "青羽",
+    "platform": "猛犸文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3487138892@qq.com"
+  },
+  {
+    "id": "cc9c6ef1-2e82-429a-adc5-afa735a47a92",
+    "name": "莲藕",
+    "platform": "玄鹿",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2448135361@qq.com"
+  },
+  {
+    "id": "e4d3e0c0-b012-4fd8-b63f-8751ed74ae68",
+    "name": "柚子茶",
+    "platform": "起量文化",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1481747009@qq.com"
+  },
+  {
+    "id": "27ce8937-486b-417b-93db-bde3d632b63f",
+    "name": "芋圆",
+    "platform": "边锋网络",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3225748983@qq.com"
+  },
+  {
+    "id": "004c2c8c-69a2-4bb3-a1f1-1322572c1862",
+    "name": "橙子",
+    "platform": "逸云书院",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2713178922@qq.com"
+  },
+  {
+    "id": "decaf221-7f9a-4588-9833-c0fb97e1f037",
+    "name": "九裕",
+    "platform": "野有蔓草",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "2159428627@qq.com"
+  },
+  {
+    "id": "81d5991b-a652-4feb-90d7-4eda68e38e5a",
+    "name": "子扬",
+    "platform": "阅众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3099564410@qq.com"
+  },
+  {
+    "id": "8ac3abb7-6063-40eb-95a4-e202e5298f39",
+    "name": "橙子",
+    "platform": "阅众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "466139253@qq.com"
+  },
+  {
+    "id": "21d99b78-7757-4f24-ba4b-4c0797c44186",
+    "name": "财财",
+    "platform": "阅众",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3353488562@qq.com"
+  },
+  {
+    "id": "bbd89de3-cf00-4a36-8e2a-4a266c702096",
+    "name": "占春",
+    "platform": "阅见文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1557855634@qq.com"
+  },
+  {
+    "id": "c9b8e4be-cbde-42c0-8d88-e3373011b567",
+    "name": "薯饼",
+    "platform": "阅见文学",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "3112601589@qq.com"
+  },
+  {
+    "id": "30c9f344-5c7e-4f55-b462-311e29b3483c",
+    "name": "小芮",
+    "platform": "鹿糖",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "174053188@qq.com"
+  },
+  {
+    "id": "37cf24f7-3008-4011-a18b-2d6022f9fe24",
+    "name": "前进",
+    "platform": "黑岩",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1064795068@qq.com"
+  },
+  {
+    "id": "df0a5a73-4e7e-488a-b768-bdb7146030d0",
+    "name": "老安",
+    "platform": "黑岩",
+    "note": "",
+    "novelTypes": [
+      "短篇"
+    ],
+    "email": "1782833838@qq.com"
+  },
+  {
+    "id": "23633003-b655-468d-8843-3dd135cbb9f2",
+    "name": "行舟",
+    "email": "2698955499@qq.com",
+    "note": "主收8k-1.2W追妻文",
+    "platform": "行舟",
+    "novelTypes": [
+      "短篇"
+    ]
   }
 ]

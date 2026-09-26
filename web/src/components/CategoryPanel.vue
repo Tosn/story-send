@@ -30,7 +30,7 @@
   </a-row>
 
   <a-modal v-model:visible="rename.visible" title="修改名称" :on-before-ok="submitRename">
-    <a-input v-model="rename.newName" />
+    <a-input v-model="rename.newName" auto-focus @press-enter="onRenameEnter" />
   </a-modal>
 </template>
 
@@ -86,8 +86,12 @@ function openRename(kind, name) {
   Object.assign(rename, { visible: true, kind, name, newName: name })
 }
 
-// 返回 false 时弹窗保持打开
+let submitting = false
+
+// 返回 false 时弹窗保持打开；提交中重复触发（连按回车或回车后点确定）直接忽略
 async function submitRename() {
+  if (submitting) return false
+  submitting = true
   try {
     const { updatedCount } = await renameCategory(rename.kind, rename.name, rename.newName)
     Message.success(`已修改，同步更新 ${updatedCount} 位编辑`)
@@ -97,7 +101,13 @@ async function submitRename() {
   } catch (err) {
     Message.error(err.message)
     return false
+  } finally {
+    submitting = false
   }
+}
+
+async function onRenameEnter() {
+  if (await submitRename()) rename.visible = false
 }
 </script>
 
